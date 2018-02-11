@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const MongoClient = require('mongodb').MongoClient;
 const url = require('./constants').MONGODB;
-const ip = require('ip');
 
 var db;
 
@@ -23,9 +22,6 @@ const PORT = process.env.PORT || 5000;
 
 // Priority serve any static files.
 app.use(express.static(path.resolve(__dirname, '../react-ui/build')));
-
-//trust proxy
-app.set('trust proxy', ip.address());
 
 // Answer API requests.
 app.get('/api', function (req, res) {
