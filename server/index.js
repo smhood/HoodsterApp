@@ -38,7 +38,13 @@ app.get('/members', function(req, res){
 });
 
 app.post('/members', function(req, res){
-  
+  var dbo = db.db("ascendance");
+  dbo.collection("members").insertOne(req.member, function(err, res){
+    if(err){
+      console.log(err);
+    }
+    res.status(200).json({response: res});
+  });
 });
 
 // All remaining requests return the React app, so it can handle routing.

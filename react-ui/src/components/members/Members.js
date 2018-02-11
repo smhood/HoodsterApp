@@ -2,8 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as appActions from '../../actions/appActions';
-
-import {ListGroup, ListGroupItem, FormControl, Button} from 'react-bootstrap';
+import {ListGroup, ListGroupItem} from 'react-bootstrap';
 
 class Members extends React.Component {
     constructor(props) {
