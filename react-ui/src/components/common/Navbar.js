@@ -17,7 +17,7 @@ class NavBar extends React.Component {
             <NavItem eventKey={1} href="/">
             Home
             </NavItem>
-            <NavItem eventKey={2} href="/members">
+            <NavItem eventKey={2} href="/roster">
             Members
             </NavItem>
         </Nav>
