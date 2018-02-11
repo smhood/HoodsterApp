@@ -9,7 +9,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "ip": "^1.1.5",
-    "jquery": "2.2.3",
+    "jquery": "3.0.0",
     "object-assign": "4.1.0",
     "react": "16.2.0",
     "react-bootstrap": "^0.32.1",
