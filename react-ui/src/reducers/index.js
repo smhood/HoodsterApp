@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
-import temp from './appReducer';
+import members from './membersReducer';
 
 const rootReducer = combineReducers({
-    temp
+    members
 });
 
 export default rootReducer;
