@@ -6,7 +6,7 @@ class HomePage extends React.Component {
             <div className="row">
                 <div className="col-md-12">
                     <div className="jumbotron">
-                        <h1>I Got Bored and Made a website..... Look a Grocery List! key={process.env.auth}</h1>
+                        <h1>I Got Bored and Made a website..... Look a Grocery List!key={process.env.AUTH}</h1>
                     </div>
                 </div>
             </div>
